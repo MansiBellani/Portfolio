@@ -12,6 +12,7 @@ import "./bodypart.css";
 
 export const Bodypart = () => {
   return (
+    <div className="body-part   px-[25px] sm:px-[50px]  flex-col  w-full  md:w-[80%] lg:w-[61rem] xl:w-[70rem] ">
     <div className="body-part px-[25px] sm:px-[50px] flex-col w-full md:w-[80%] lg:w-[61rem] xl:w-[70rem]">
       <Banner />
       <About />

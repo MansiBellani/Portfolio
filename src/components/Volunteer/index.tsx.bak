@@ -11,6 +11,7 @@ export const VolunteerExperience = () => {
   return (
     <div
       id="experience"
+      className=" min-h-[38rem] pt-24 sm:pt-20 sm:mt-20 md:pt-40 md:mt-40 lg:pt-48 lg:mt-48 "
       className="min-h-[38rem] pt-16 sm:pt-20 md:pt-24 lg:pt-32"
     >
       <TitleHead number={2} title="Volunteering Experience" />

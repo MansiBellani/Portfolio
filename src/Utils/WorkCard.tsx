@@ -1,5 +1,5 @@
 type WorkCardProp = {
-  position: string;
+  position?: string;
   company: string;
   link?: string;
   startMonth?: string;

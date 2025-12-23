@@ -1,3 +1,4 @@
+export const companydata = ["The University Financing Foundation (TUFF)","Schneider Electric","American Energy Society","HVD Lifesciences", "Kent RO Ltd."];
 export const companydata = ["SynchroHealth, Hanover, NH","The University Financing Foundation, Atlanta, GA","Schneider Electric, Arlington, VA","American Energy Society, Hanover, NH","HVD Lifesciences, Dubai, UAE", "Kent RO Ltd., India"];
 export const volundeerCompanydata = ["Live Green Foundation", "U&I Trust"];
 
@@ -22,6 +23,8 @@ export const volunteerData = [
 
 export const workdata = [
   {
+    company: "The University Financing Foundation (TUFF)",
+    position: "Operations & Product Analyst Intern",
     company: "SynchroHealth, Hanover, NH",
     position: "Product Analyst (Student Consultant)",
     link: "https://www.tuff.org/",

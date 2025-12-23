@@ -6,21 +6,28 @@ export const About = () => {
   return (
     <div
       id="about"
+<<<<<<< HEAD
+      className="pt-24 sm:pt-40 md:pt-40 md:mt-20 lg:pt-48 lg:mt-48 "
+=======
       className="pt-16 sm:pt-20 md:pt-24 lg:pt-32"
+>>>>>>> 832457f (folio update)
     >
       <TitleHead number={1} title="About" />
       <div className="flex justify-between  flex-col lg:flex-row ">
         <div className="lg:w-[60%] text-left secondary">
+<<<<<<< HEAD
           <p className="mb-5 text-[#8892b0]">Hello! I'm Mansi — a Master in Engineering Management (MEM) student at Dartmouth with a background in computer engineering. I'm passionate about building at the intersection of technology, strategy, and impact.</p>
           <p className="mb-5 text-[#8892b0]">My interests span across data-driven decision-making, product development, blockchain, and cybersecurity. I'm currently exploring how tools like Power BI, Python, and LLMs can drive smarter operations, automate insight generation, and support real-world business needs.</p>
           <p className="mb-5 text-[#8892b0]">I'm passionate about creating tools and systems that make decision-making smarter, faster, and more inclusive. I care deeply about leveraging technology to address critical issues — from sustainability to cybersecurity — and I remain committed to philanthropy and community involvement.</p>
           <p className="mb-5 text-[#8892b0]">While I have a long way to go, I'm excited to keep learning, growing, and contributing meaningfully to the tech and business ecosystem.</p>
+=======
           
           <p className="mb-5 text-[#8892b0]">Hello, I'm Mansi.</p>
           <p className="mb-5 text-[#8892b0]">I recently graduated with a Master in Engineering Management from Dartmouth, building on a foundation in computer engineering. My interests and experience sit at the intersection of technology, analytics, and strategy, with a strong focus on applying data-driven approaches to real-world business problems.</p>
           <p className="mb-5 text-[#8892b0]">Through my academic and professional work, I have explored analytics-driven problem solving across marketing optimization, product strategy, and operational analysis. I enjoy working with tools such as Power BI, Python, and analytics frameworks to turn complex data into insights that teams can use to make better decisions.</p>
           <p className="mb-5 text-[#8892b0]">What motivates me most is improving how organizations operate by reducing uncertainty and enabling smarter, faster decision-making. I am drawn to roles that blend analytical rigor with practical execution, whether that involves growth strategy, automation, or performance measurement. I also value purpose-driven work and remain committed to contributing to initiatives that create positive social impact.</p>
           <p className="mb-5 text-[#8892b0]">I am highly intentional about learning, asking thoughtful questions, and continuing to grow as both a technical and strategic contributor. I am excited by environments that value curiosity, collaboration, and continuous improvement.</p>
+>>>>>>> 832457f (folio update)
           
           <div>
             <h4 className="text-lg text-[#ccf6f0] mt-6 mb-2 font-semibold">Technical Skills & Tools</h4>
@@ -59,9 +66,13 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="w-full mt-16 lg:mt-0 lg:w-[28rem]">
+<<<<<<< HEAD
+        <div className=" w-full  mt-16 lg:mt-0 lg:w-[28rem]">
+=======
+        <div className="w-full mt-8 lg:mt-0 lg:w-[28rem]">
+>>>>>>> 832457f (folio update)
           <div className="flex justify-center">
-            <div className="profile-img h-[250px] w-[250px] sm:h-[300px] sm:w-[300px]">
+            <div className="profile-img  h-[250px] w-[250px] sm:h-[300px] sm:w-[300px] ">
               <div className="flex justify-center items-center">
                 <img
                   className="inner-img h-[250px] sm:h-[300px]"

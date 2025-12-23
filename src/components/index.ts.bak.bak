@@ -7,9 +7,12 @@ import { Experience } from "./Experience";
 import { Footer } from "./Footer";
 import { Hero } from "./Hero";
 import { Work } from "./Work";
+<<<<<<< HEAD
+=======
 import { ResearchPublication } from "./ResearchPublication";
 import { LeadershipRepresentation } from "./LeadershipRepresentation";
 import { BeyondWork } from "./BeyondWork";
+>>>>>>> 832457f (folio update)
 
 export {
   NavBar,
@@ -21,7 +24,10 @@ export {
   Footer,
   Hero,
   Work,
+<<<<<<< HEAD
+=======
   ResearchPublication,
   LeadershipRepresentation,
   BeyondWork,
+>>>>>>> 832457f (folio update)
 };

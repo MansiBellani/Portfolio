@@ -90,6 +90,7 @@ export const NavBar = () => {
       {/* Toggle navbar ends */}
 
       <div className="text-white hidden md:flex items-center">
+        <ol className="flex nav-items">
         <ol className="flex nav-items items-center">
           <li className="glowText">
             <HashLink to="#about" smooth>
@@ -126,25 +127,21 @@ export const NavBar = () => {
               Contact
             </HashLink>
           </li>
-          <li>
-            <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2 mt-[-10px] ">
-              <a href="/MB Full time.pdf" target="_blank" rel="noreferrer">
-                Resume
-              </a>
-            </button>
-          </li>
-          <li className="ml-4">
-            <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2">
-              <a
-                href="/MansiBellaniResume (1).pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
-            </button>
-          </li>
         </ol>
+        <li>
+          <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2 mt-[-10px] ">
+            <a href="/MB Full time.pdf" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </button>
+        </li>
+        <div className="ml-6">
+          <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2">
+            <a href="/MansiBellaniResume (1).pdf" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
