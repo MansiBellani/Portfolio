@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 export const companydata = ["The University Financing Foundation (TUFF)","Schneider Electric","American Energy Society","HVD Lifesciences", "Kent RO Ltd."];
+=======
+export const companydata = ["SynchroHealth, Hanover, NH","The University Financing Foundation, Atlanta, GA","Schneider Electric, Arlington, VA","American Energy Society, Hanover, NH","HVD Lifesciences, Dubai, UAE", "Kent RO Ltd., India"];
+>>>>>>> 832457f (folio update)
 export const volundeerCompanydata = ["Live Green Foundation", "U&I Trust"];
 
 export const volunteerData = [
@@ -22,13 +26,19 @@ export const volunteerData = [
 
 export const workdata = [
   {
+<<<<<<< HEAD
     company: "The University Financing Foundation (TUFF)",
     position: "Operations & Product Analyst Intern",
+=======
+    company: "SynchroHealth, Hanover, NH",
+    position: "Product Analyst (Student Consultant)",
+>>>>>>> 832457f (folio update)
     link: "https://www.tuff.org/",
     startMonth: "June",
     startYear: 2025,
     endMonth: "Present",
     endyear: "",
+<<<<<<< HEAD
     pr1: "Developing analytics pipelines to support financial decision-making through structured data ETL workflows",
     pr2: "Designing Power BI dashboards to surface actionable investment insights in real estate and institutional finance",
     pr3: "Investigating large language models (LLMs) and AI-driven APIs to automate content summarization and deliver real-time intelligence from financial newsletters and market sources",
@@ -36,12 +46,34 @@ export const workdata = [
   },
   {
     company: "Schneider Electric",
+=======
+    pr1:"Collaborated with the founding team of a health tech startup to conduct product and user analysis for a Bluetooth enabled resistance band used in at home physical therapy",
+    pr2: "Conducted in-depth market and data analysis across PT clinics, athletic programs, and hospitals to evaluate adoption potential, identifying $20M+ in high-ROI market opportunities.",
+    pr3: "Developed pricing models and a GTM roadmap through competitor benchmarking to strengthen investor readiness",
+  },
+  {
+    company: "The University Financing Foundation, Atlanta, GA",
+    position: "Financial Data Analyst Intern",
+    link: "https://www.tuff.org/",
+    startMonth: "June",
+    startYear: 2025,
+    endMonth: "Present",
+    endyear: "",
+    pr1:"Engineered an AI-powered tool integrating content scraping, keyword extraction, zero-shot NLI scoring, and summarization, automating federal program research, reducing effort by 75%, and saving $2,700 per intern cycle",
+    pr2: "Validated and cleaned university datasets from IPEDS, HERD, and scholarship sources using SQL and Python (Pandas, NumPy) to ensure data accuracy and consistency.",
+    pr3: "Built an interactive Power BI dashboard using DAX and SQL to visualize KPIs such as enrollment trends, tuition fees, scholarships, and research expenditures, improving reporting reliability by 40%",
+    pr4: "Supported financial underwriting of universities by analyzing audited statements, liquidity ratios, and credit ratings to assess institutional health and guide investment strategies",
+  },
+  {
+    company: "Schneider Electric, Arlington, VA",
+>>>>>>> 832457f (folio update)
     position: "AI Strategy & Market Intelligence Consultant",
     link: "https://www.se.com/us/en/",
     startMonth: "March",
     startYear: 2025,
     endMonth: "June",
     endyear: "2025",
+<<<<<<< HEAD
     pr1: "Integrated GPT-4, Streamlit, and Power BI into a centralized insights platform for market intelligence",
     pr2: "Improved insight scanning efficiency by 65%, enabling faster, territory-specific decision-making for Biz Dev teams",
     pr3: undefined,
@@ -50,11 +82,21 @@ export const workdata = [
   {
     company: "American Energy Society",
     position: "Business Analyst",
+=======
+    pr1: "Built a LangChain powered RAG pipeline using the OpenAI API to automate classification and summarization of high-volume text datasets, improving processing efficiency by 65% and reducing recurring manual analysis effort",
+    pr2: "Implemented inference optimization and caching mechanisms for faster retrieval of outputs, reducing end-to-end latency by 40% and enhancing system throughput",
+    pr3: "Integrated LangChain generated text analytics outputs into dashboards, enabling scalable reporting and reliable performance under high volume data loads",
+  },
+  {
+    company: "American Energy Society, Hanover, NH",
+    position: "Business Analyst (Student Consultant)",
+>>>>>>> 832457f (folio update)
     link: "https://www.energysociety.org/",
     startMonth: "September",
     startYear: 2024,
     endMonth: "December",
     endyear: "2024",
+<<<<<<< HEAD
     pr1: "Assessed and recommended new email marketing technologies, improving user engagement by 20%",
     pr2: "Conducted a thorough cost-benefit analysis, resulting in 30% savings on operational costs",
     pr3: undefined,
@@ -62,12 +104,21 @@ export const workdata = [
   },
   {
     company: "HVD Lifesciences",
+=======
+    pr1: "Performed SWOT analysis and A/B testing across 30+ marketing campaigns for the American Energy Society to identify key performance drivers and validate optimization strategies, increasing CTR by 20% and reducing operational costs by 30%",
+    pr2: "Analyzed campaign performance using Google Analytics and Excel to evaluate audience engagement, channel effectiveness, and conversion trends, supporting data driven budget allocation decisions",
+    pr3: "Developed clear performance summaries and visualizations to communicate insights and recommendations to stakeholders, enabling faster iteration and optimization across campaigns",
+  },
+  {
+    company: "HVD Lifesciences, Dubai, UAE",
+>>>>>>> 832457f (folio update)
     position: "Product Manager Intern",
     link: "https://hvdlifesciences.com/home.html",
     startMonth: "March",
     startYear: 2021,
     endMonth: "February",
     endyear: "2022",
+<<<<<<< HEAD
     pr1: "Worked in a team to run 130K newborn screening tests, formulating visions and strategy during pandemic times",
     pr2: "Collaborated with cross-functional teams and stakeholders to ensure timely outputs with zero errors",
     pr3: "Efforts were recognized by the UAE government for potentially saving 2.4K lives through this project",
@@ -75,6 +126,15 @@ export const workdata = [
   },
   {
     company: "Kent RO Ltd.",
+=======
+    pr1: "Collaborated with a team to analyze 130,000 newborn screening tests to identify bottlenecks and quality gaps, improving testing accuracy and turnaround time and contributing to public health outcomes, saving 2,400 lives",
+    pr2: "Analyzed workflow metrics and used Kanban to streamline cross functional processes, improving operational efficiency by 20%",
+    pr3: "Used Excel functions and SQL queries to analyze diagnostic data, improving visibility into testing performance and streamlining process optimization efforts",
+    pr4: "Managed a team of 4 to develop data backed recommendations that improved accessibility and operational efficiency ofdiagnostic testing, earning recognition from the UAE Ministry of Health for public health impact",
+  },
+  {
+    company: "Kent RO Ltd., India",
+>>>>>>> 832457f (folio update)
     position: "Project Manager Intern",
     link: "https://www.kent.co.in/about-us",
     startMonth: "November",

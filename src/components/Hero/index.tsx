@@ -109,11 +109,19 @@ export const Hero = () => {
       <div className="email-text hidden md:block  ">
         <div className="right-email-text cursor-pointer glowText">
           <a
+<<<<<<< HEAD
             href="https://mail.google.com/mail/?view=cm&fs=1&to=bellanimansii@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             bellanimansii@gmail.com 
+=======
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=mansibellani26@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            mansibellani26@gmail.com
+>>>>>>> 832457f (folio update)
           </a>
         </div>
       </div>

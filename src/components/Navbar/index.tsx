@@ -56,6 +56,33 @@ export const NavBar = () => {
               className="glowText toggle-items"
               onClick={() => setActive(!active)}
             >
+<<<<<<< HEAD
+=======
+              <HashLink to="#research-publication" smooth>
+                Research
+              </HashLink>
+            </li>
+            <li
+              className="glowText toggle-items"
+              onClick={() => setActive(!active)}
+            >
+              <HashLink to="#leadership-representation" smooth>
+                Leadership
+              </HashLink>
+            </li>
+            <li
+              className="glowText toggle-items"
+              onClick={() => setActive(!active)}
+            >
+              <HashLink to="#beyond-work" smooth>
+                Beyond Work
+              </HashLink>
+            </li>
+            <li
+              className="glowText toggle-items"
+              onClick={() => setActive(!active)}
+            >
+>>>>>>> 832457f (folio update)
               <HashLink to="#contact" smooth>
                 Contact
               </HashLink>
@@ -66,7 +93,11 @@ export const NavBar = () => {
       {/* Toggle navbar ends */}
 
       <div className="text-white hidden md:flex items-center">
+<<<<<<< HEAD
         <ol className="flex nav-items">
+=======
+        <ol className="flex nav-items items-center">
+>>>>>>> 832457f (folio update)
           <li className="glowText">
             <HashLink to="#about" smooth>
               About
@@ -83,11 +114,30 @@ export const NavBar = () => {
             </HashLink>
           </li>
           <li className="glowText">
+<<<<<<< HEAD
+=======
+            <HashLink to="#research-publication" smooth>
+              Research
+            </HashLink>
+          </li>
+          <li className="glowText">
+            <HashLink to="#leadership-representation" smooth>
+              Leadership
+            </HashLink>
+          </li>
+          <li className="glowText">
+            <HashLink to="#beyond-work" smooth>
+              Beyond Work
+            </HashLink>
+          </li>
+          <li className="glowText">
+>>>>>>> 832457f (folio update)
             <HashLink to="#contact" smooth>
               Contact
             </HashLink>
           </li>
         </ol>
+<<<<<<< HEAD
         <li>
           <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2 mt-[-10px] ">
             <a href="/MB Full time.pdf" target="_blank" rel="noreferrer">
@@ -95,6 +145,15 @@ export const NavBar = () => {
             </a>
           </button>
         </li>
+=======
+        <div className="ml-6">
+          <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2">
+            <a href="/MansiBellaniResume (1).pdf" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </button>
+        </div>
+>>>>>>> 832457f (folio update)
       </div>
     </div>
   );

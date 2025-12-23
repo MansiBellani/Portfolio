@@ -21,6 +21,7 @@
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .profile-img:hover {
   box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary),
     0 0 40px var(--primary);
@@ -82,3 +83,5 @@
     transform: rotate(0deg);
   }
 }
+=======
+>>>>>>> 832457f (folio update)

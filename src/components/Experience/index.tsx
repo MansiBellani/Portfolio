@@ -11,11 +11,19 @@ export const Experience = () => {
   return (
     <div
       id="experience"
+<<<<<<< HEAD
       className="pt-24 sm:pt-40 md:pt-40 md:mt-20 lg:pt-48 lg:mt-48"
     >
       <TitleHead number={2} title="Experience" />
 
       <div className="flex flex-col md:flex-row mt-16 lg:mt-32">
+=======
+      className="pt-16 sm:pt-20 md:pt-24 lg:pt-32"
+    >
+      <TitleHead number={2} title="Experience" />
+
+      <div className="flex flex-col md:flex-row mt-8 lg:mt-12">
+>>>>>>> 832457f (folio update)
         <div className="w-[100%] md:w-[25%] mb-8 md:mb-0 overflow-auto md:overflow-visible" >
           <ul className="flex md:block md:text-left ">
             {companydata.map((item,key) => (
@@ -32,6 +40,7 @@ export const Experience = () => {
         </div>
 
         <div>
+<<<<<<< HEAD
           <WorkCard
             position={work[0].position}
             company={work[0].company}
@@ -45,6 +54,23 @@ export const Experience = () => {
             pr3={work[0].pr3 && work[0].pr3}
             pr4={work[0].pr4 && work[0].pr4}
           />
+=======
+          {work[0] && (
+            <WorkCard
+              position={work[0].position}
+              company={work[0].company}
+              link={work[0].link}
+              startMonth={work[0].startMonth}
+              startYear={work[0].startYear}
+              endYear={work[0].endyear}
+              endMonth={work[0].endMonth}
+              pr1={work[0].pr1 && work[0].pr1}
+              pr2={work[0].pr2 && work[0].pr2}
+              pr3={work[0].pr3 && work[0].pr3}
+              pr4={work[0].pr4 && work[0].pr4}
+            />
+          )}
+>>>>>>> 832457f (folio update)
         </div>
       </div>
     </div>

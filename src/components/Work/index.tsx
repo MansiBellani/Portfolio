@@ -6,7 +6,11 @@ export const Work = () => {
   return (
     <div
       id="work"
+<<<<<<< HEAD
       className="pt-24 sm:pt-40 md:pt-40 md:mt-20 lg:pt-48 lg:mt-48"
+=======
+      className="pt-16 sm:pt-20 md:pt-24 lg:pt-32"
+>>>>>>> 832457f (folio update)
     >
       <TitleHead number={3} title="Projects" />
 

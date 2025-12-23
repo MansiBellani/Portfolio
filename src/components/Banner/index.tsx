@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import graduation from "../../assets/graduation.jpeg";
+>>>>>>> 832457f (folio update)
 export const Banner = () => {
   return (
     <div className="text-left mt-40">
@@ -13,6 +17,7 @@ export const Banner = () => {
       {/* <h2 className="my-4 roboto text-[#ccf6f0] opacity-70 text-3xl  lg:text-7xl">
         I like to build things.
       </h2> */}
+<<<<<<< HEAD
       <p className="secondary lg:w-[90%]  xl:w-[80%]">
         Learning to join new breed of leaders blending technical and leadership{" "}
         <br />
@@ -23,6 +28,17 @@ export const Banner = () => {
         critical problems, quick decision making and minimising risks in
         complex systems.
       </p>
+=======
+      
+      <p className="secondary lg:w-[90%]  xl:w-[80%]">
+        I am a Master in Engineering Management student at Dartmouth with a background in computer engineering, focused on using technology and data to improve decision-making and drive meaningful impact. I am particularly interested in roles that sit at the intersection of analytics, strategy, and execution, where thoughtful use of technology can help organizations operate more effectively in complex environments.
+      </p>
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="w-full h-80 md:h-96 bg-[#112240] rounded-lg overflow-hidden border border-[#00e5e8] border-opacity-20">
+            <img src={graduation} alt="graduationpic" className="w-full h-full object-cover" />
+          </div>
+        </div>
+>>>>>>> 832457f (folio update)
     </div>
   );
 };
