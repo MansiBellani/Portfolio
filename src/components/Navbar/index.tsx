@@ -126,17 +126,10 @@ export const NavBar = () => {
               Contact
             </HashLink>
           </li>
-          <li>
-            <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2 mt-[-10px] ">
-              <a href="/MB Full time.pdf" target="_blank" rel="noreferrer">
-                Resume
-              </a>
-            </button>
-          </li>
           <li className="ml-4">
             <button className="resume-btn glowText border-[#00e5e8] text-[#00e5e8] rounded border-2 p-2">
               <a
-                href="/MansiBellaniResume (1).pdf"
+                href="/MB Full time.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

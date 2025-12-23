@@ -11,10 +11,7 @@ export const About = () => {
       <TitleHead number={1} title="About" />
       <div className="flex justify-between  flex-col lg:flex-row ">
         <div className="lg:w-[60%] text-left secondary">
-          <p className="mb-5 text-[#8892b0]">Hello! I'm Mansi — a Master in Engineering Management (MEM) student at Dartmouth with a background in computer engineering. I'm passionate about building at the intersection of technology, strategy, and impact.</p>
-          <p className="mb-5 text-[#8892b0]">My interests span across data-driven decision-making, product development, blockchain, and cybersecurity. I'm currently exploring how tools like Power BI, Python, and LLMs can drive smarter operations, automate insight generation, and support real-world business needs.</p>
-          <p className="mb-5 text-[#8892b0]">I'm passionate about creating tools and systems that make decision-making smarter, faster, and more inclusive. I care deeply about leveraging technology to address critical issues — from sustainability to cybersecurity — and I remain committed to philanthropy and community involvement.</p>
-          <p className="mb-5 text-[#8892b0]">While I have a long way to go, I'm excited to keep learning, growing, and contributing meaningfully to the tech and business ecosystem.</p>
+          
           
           <p className="mb-5 text-[#8892b0]">Hello, I'm Mansi.</p>
           <p className="mb-5 text-[#8892b0]">I recently graduated with a Master in Engineering Management from Dartmouth, building on a foundation in computer engineering. My interests and experience sit at the intersection of technology, analytics, and strategy, with a strong focus on applying data-driven approaches to real-world business problems.</p>

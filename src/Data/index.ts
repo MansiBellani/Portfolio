@@ -63,7 +63,7 @@ export const workdata = [
     endyear: "2025",
     pr1: "Integrated GPT-4, Streamlit, and Power BI into a centralized insights platform for market intelligence",
     pr2: "Improved insight scanning efficiency by 65%, enabling faster, territory-specific decision-making for Biz Dev teams",
-    pr3: undefined,
+    pr3: "Integrated LangChain generated text analytics outputs into dashboards, enabling scalable reporting and reliable performance under high volume data loads",
     pr4: undefined,
   },
   {

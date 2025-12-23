@@ -14,16 +14,7 @@ export const Banner = () => {
       {/* <h2 className="my-4 roboto text-[#ccf6f0] opacity-70 text-3xl  lg:text-7xl">
         I like to build things.
       </h2> */}
-      <p className="secondary lg:w-[90%]  xl:w-[80%]">
-        Learning to join new breed of leaders blending technical and leadership{" "}
-        <br />
-        skills. I am convinced the only way forward is harnessing technology to
-        <br />
-        challenge traditional systems and transform the organisations in solving{" "}
-        <br />
-        critical problems, quick decision making and minimising risks in
-        complex systems.
-      </p>
+      
       
       <p className="secondary lg:w-[90%]  xl:w-[80%]">
         I am a Master in Engineering Management student at Dartmouth with a background in computer engineering, focused on using technology and data to improve decision-making and drive meaningful impact. I am particularly interested in roles that sit at the intersection of analytics, strategy, and execution, where thoughtful use of technology can help organizations operate more effectively in complex environments.
